@@ -1,0 +1,78 @@
+/* Your CSS styles */
+@media (min-width: 858px) {
+    html {
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        background-image: none;
+        background-color: wheat;
+    }
+}
+
+#img {
+    width: 200px; 
+    height: auto;
+    margin: 20px;
+    border-radius: 50%;
+    transition: transform 0.3s ease; 
+}
+img:hover {
+    transform: scale(1.1);
+}
+pre {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.tit:hover{
+    background-color:rgb(124, 191, 243);
+}
+button a{
+    list-style-type: none;
+    display: inline;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    float: right;
+    text-align: left;
+}
+button{
+    margin-top:30px;
+    margin-left:200px;
+    float:left;
+    background-color:rgba(1, 0, 0, 0.004);
+    border:none;
+    cursor: pointer;
+}
+button :hover{
+    color: red;
+}
+
+div a{
+   margin-left:30px;
+    text-decoration: none;
+    color: white;
+    
+}
+form input{
+    width:300px;
+    height:20px;
+}
+
+.me{
+color: yellowgreen;
+}
+.bx{
+    color: aliceblue;
+    float: center;
+    margin-left:30px;
+    margin-top:30px;
+}
+div a .svg :hover{
+color:green;
+}
